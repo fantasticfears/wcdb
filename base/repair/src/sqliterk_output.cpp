@@ -548,7 +548,7 @@ int sqliterk_output_cb(sqliterk *rk,
                             ctx.fail_count);
         return SQLITERK_DAMAGED;
     } else {
-        sqliterkOSInfo(SQLITERK_OK, "Recovery output finished. [succeeded: %u, failed: %u]", 
+        sqliterkOSInfo(SQLITERK_OK, "Recovery output finished. [succeeded: %u, failed: %u]",
             ctx.success_count, ctx.fail_count);
         return SQLITERK_OK;
     }

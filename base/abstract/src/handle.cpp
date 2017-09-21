@@ -18,9 +18,9 @@
  * limitations under the License.
  */
 
-#include <WCDB/File.hpp>
-#include <WCDB/Path.hpp>
-#include <WCDB/SQLiteRepairKit.h>
+#include <WCDB/file.hpp>
+#include <WCDB/path.hpp>
+#include "SQLiteRepairKit.h"
 #include <WCDB/handle.hpp>
 #include <WCDB/handle_statement.hpp>
 #include <WCDB/macro.hpp>

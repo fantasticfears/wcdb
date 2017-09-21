@@ -22,6 +22,7 @@
 #define sqliterk_util_h
 
 #include <stdio.h>
+#include <stdint.h>
 
 int sqliterkParseInt(const unsigned char *data,
                      int offset,

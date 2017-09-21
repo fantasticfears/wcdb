@@ -265,7 +265,7 @@ static int sqliterkNotify_onParseColumn(sqliterk *rk,
             }
         }
     }
-    
+
     return result;
 }
 

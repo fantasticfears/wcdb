@@ -17,3 +17,5 @@ xcuserdata
 xcuserdata/*
 *.xcworkspace/*
 *.xcworkspace
+
+build/
